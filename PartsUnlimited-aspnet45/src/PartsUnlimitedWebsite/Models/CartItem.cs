@@ -5,6 +5,7 @@ namespace PartsUnlimited.Models
 {
     public class CartItem : ILineItem
     {
+        // this is a test change in the code to commit it and rollback
         [Key]
         public int CartItemId { get; set; }
 
